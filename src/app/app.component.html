@@ -1,0 +1,117 @@
+<div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside
+      class="w-64 bg-gray-900 text-white fixed top-0 left-0 h-full z-50 transform transition-transform duration-300 shadow-xl rounded-r-lg"
+      [ngClass]="{'-translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen}"
+    >
+      <div class="p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-semibold">VBC Engineering</h1>
+      </div>
+      <nav class="mt-4">
+        <ul>
+          <li>
+            <a
+              routerLink="/home"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+              
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+              </svg>
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/about"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/services"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+              </svg>
+              Services
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/benefits"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              Benefits
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/experience"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              Experience
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/choose-us"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              Why Choose Us
+            </a>
+          </li>
+          <li>
+            <a
+              routerLink="/contact"
+              routerLinkActive="bg-blue-700"
+              class="flex items-center px-4 py-3 hover:bg-gray-700 transition-colors"
+            >
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+  
+    <!-- Main Content -->
+    <div
+      class="flex-1 transition-all duration-300"
+      [ngClass]="{'ml-64': isSidebarOpen, 'ml-0': !isSidebarOpen}"
+    >
+      <app-navbar (toggleSidebar)="toggleSidebar()"></app-navbar>
+      
+      <router-outlet></router-outlet>
+    </div>
+  
+    <!-- Overlay -->
+    <div
+      *ngIf="isSidebarOpen"
+      class="fixed inset-0 bg-black bg-opacity-50 z-40"
+      (click)="toggleSidebar()"
+    ></div>
+  </div>

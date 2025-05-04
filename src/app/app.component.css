@@ -1,0 +1,38 @@
+
+
+/* Custom styles */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/* Sidebar animation */
+aside {
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Main content margin animation */
+.flex-1 {
+  transition-property: margin-left;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Active link styling */
+.bg-indigo-600 {
+  background-color: #4f46e5 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  aside {
+    width: 260px;
+  }
+}
+
+@media (max-width: 640px) {
+  aside {
+    width: 220px;
+  }
+}

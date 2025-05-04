@@ -1,0 +1,190 @@
+{
+    "NAVBAR": {
+      "HOME": "Inicio",
+      "MISSION": " Misión",
+      "SERVICES": "Servicios",
+      "BENEFITS": "Beneficios ",
+      "EXPERIENCE": "Experiencia y Software",
+      "OPTIONS": "Opciones de Cooperación",
+      "CONTACT": "Contacto",
+      "LANGUAGE": "Español",
+      "COMPANY_NAME": "VBC Engineering"
+
+    },
+    "CONTACT": {
+      "TITLE": "Contáctenos",
+      "UK_OFFICE": "Oficina de Reino Unido",
+      "USA_OFFICE": "Oficina de Estados Unidos",
+      "EU_OFFICE": "Oficina de la Unión Europea",
+      "AUSTRALIA_OFFICE": "Oficina de Australia",
+      "UAE_MENA_OFFICE": "Oficina de Emiratos Árabes Unidos y MENA",
+      "EGYPT_AFRICA_OFFICE": "Oficina de Egipto y África",
+      "EMAIL": "Correo Electrónico",
+      "ADDRESS": "Dirección",
+      "UK_ADDRESS": "71-75 Shelton Street, Covent Garden, Londres, WC2H 9JQ"
+    },
+    "OPTIONS": {
+      "TITLE": "Opciones de Cooperación",
+      "DESCRIPTION": "Elija el modelo de precios que mejor se adapte a las necesidades de su proyecto, desde tarifas horarias flexibles hasta equipos dedicados.",
+      "HOURLY_TITLE": "Precios por Tarifa Horaria",
+      "HOURLY_DESCRIPTION": "Ideal para trabajos continuos o tareas con un alcance incierto.",
+      "FIXED_TITLE": "Precio Fijo/Basado en Proyectos",
+      "FIXED_DESCRIPTION": "Mejor para proyectos bien definidos con objetivos y plazos claros.",
+      "RETAINER_TITLE": "Precios Basados en Retención",
+      "RETAINER_DESCRIPTION": "Perfecto para soporte o servicios continuos a largo plazo.",
+      "DEDICATED_TITLE": "Equipo Dedicado",
+      "DEDICATED_DESCRIPTION": "Profesionales dedicados para proyectos continuos a largo plazo."
+    },
+    "EXPERIENCE": {
+      "BACK": "Atrás",
+      "TITLE": "Nuestra Experiencia",
+      "DESCRIPTION_PART1": "Más de 100 Proyectos en Todo el Mundo",
+      "DESCRIPTION_PART2": "Hemos trabajado en proyectos en los Estados Unidos, Reino Unido, Canadá, Sudáfrica, Arabia Saudita y Egipto, incluyendo:",
+      "HIGHWAY_PROJECTS": "Proyectos de Carreteras",
+      "BUILDINGS": "Edificios Residenciales, Comerciales y de Gran Altura",
+      "WATER_PLANTS": "Plantas de Tratamiento de Agua",
+      "INFRASTRUCTURE": "Proyectos de Infraestructura",
+      "COST_ESTIMATION": "Estimación de Costos, Despegue de Cantidades y Control de Costos",
+      "SOFTWARE_TITLE": "Nuestra Experiencia en Software",
+      "SOFTWARE_DESCRIPTION": "Aprovechamos software líder en la industria para ofrecer soluciones precisas y eficientes para la estimación de costos, topografía de cantidades, control de costos y planificación de proyectos.",
+      "COST_ESTIMATION_BOQ": "Estimación de Costos y BOQ",
+      "COST_CONTROL": "Control de Costos",
+      "QUANTITY_SURVEYING": "Topografía de Cantidades",
+      "PLANNING_SCHEDULING": "Planificación y Programación"
+    },
+    "BENEFITS": {
+      "BACK": "Atrás",
+      "TITLE": "Beneficios de la Subcontratación",
+      "COST_SAVINGS_TITLE": "Ahorro de Costos",
+      "COST_SAVINGS_DESCRIPTION": "Reduce los costos laborales y operativos, y elimina la necesidad de contratación o capacitación interna.",
+      "CORE_BUSINESS_TITLE": "Enfoque en el Negocio Principal",
+      "CORE_BUSINESS_DESCRIPTION": "Libera recursos para concentrarse en funciones clave al delegar tareas no esenciales.",
+      "EXPERTISE_TITLE": "Acceso a Expertos",
+      "EXPERTISE_DESCRIPTION": "Obtén acceso a profesionales calificados sin compromisos a largo plazo.",
+      "EFFICIENCY_TITLE": "Aumento de la Eficiencia",
+      "EFFICIENCY_DESCRIPTION": "Reduce la carga de trabajo en los equipos internos, aumentando la productividad general.",
+      "SCALABILITY_TITLE": "Escalabilidad y Flexibilidad",
+      "SCALABILITY_DESCRIPTION": "Escala las operaciones hacia arriba o hacia abajo sin contratar nuevo personal.",
+      "RISK_MANAGEMENT_TITLE": "Gestión de Riesgos",
+      "RISK_MANAGEMENT_DESCRIPTION": "La responsabilidad compartida y el cumplimiento gestionado reducen los riesgos comerciales.",
+      "TAX_TITLE": "Ventajas Fiscales de la Subcontratación",
+      "TAX_DEDUCTIBILITY_TITLE": "Deducibilidad Fiscal",
+      "TAX_DEDUCTIBILITY_DESCRIPTION": "Los pagos a contratistas independientes son deducibles como gastos comerciales, evitando impuestos adicionales de nómina y costos de beneficios.",
+      "NO_UNEMPLOYMENT_TITLE": "Sin Seguro de Desempleo ni Compensación Laboral",
+      "NO_UNEMPLOYMENT_DESCRIPTION": "Sin contribuciones al seguro de desempleo o compensación laboral, lo que reduce significativamente los costos."
+    },
+    "SERVICES": {
+      "TITLE": "Nuestros Servicios de Consultoría y Subcontratación",
+      "READ_MORE": "Leer más",
+      "READ_MORE_ARIA": "Leer más sobre {title}",
+      "LEARN_MORE": "Aprende más sobre {title}",
+      "COST_ESTIMATION_TITLE": "Estimación de Costos y BOQ",
+      "COST_ESTIMATION_DESCRIPTION": "En la estimación de costos, calculamos los costos totales requeridos para un nuevo proyecto de construcción, incluyendo costos directos e indirectos.",
+      "COST_ESTIMATION_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Estimación de Costos y BOQ</h1><p>En la estimación de costos, calculamos los costos totales requeridos para un nuevo proyecto de construcción, incluyendo costos directos e indirectos.</p><p><strong>Nuestros servicios incluyen:</strong></p><ol><li><strong>Estimación de Despegue de Cantidades:</strong> En teoría, un despegue de cantidades en la construcción estima las cantidades del contrato a partir de planos y planes de construcción, registrándolas en la Lista de Cantidades. Los documentos estándar utilizados en los despegues de construcción son arquitectónicos, estructurales, eléctricos y de redes de agua en el sitio.</li><li><strong>Estimación de Costos:</strong> Un desglose detallado de los costos de mano de obra, materiales y generales involucrados en un proyecto de construcción. Esto puede incluir costos directos e indirectos, como honorarios de subcontratistas, permisos y seguros.</li><li><strong>Estimación de Gestión de Proyectos:</strong> Ofrecemos servicios completos de gestión de proyectos y estimación, proporcionando una comprensión integral de costos, cronogramas y asignación de recursos a lo largo del ciclo de vida del proyecto.</li><li><strong>Estimación de Ingeniería de Valor:</strong> Este tipo de estimación se centra en reducir costos mediante el análisis y la mejora del diseño del proyecto, los métodos de construcción y los materiales sin afectar la calidad o el rendimiento del proyecto.</li></ol>",
+      "COST_CONTROL_TITLE": "Control de Costos",
+      "COST_CONTROL_DESCRIPTION": "En el control de costos de construcción, nos enfocamos en gestionar y minimizar los costos de un proyecto de construcción.",
+      "COST_CONTROL_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Control de Costos</h1><p>En el control de costos de construcción, nos enfocamos en gestionar y minimizar los costos de un proyecto de construcción mientras aseguramos que se mantenga en curso en términos de alcance, calidad y cronograma. Estos servicios ayudan a rastrear, monitorear y controlar los gastos a lo largo del ciclo de vida del proyecto, desde la fase inicial de presupuestación hasta la finalización del proyecto. El control de costos efectivo asegura que el proyecto se entregue dentro del presupuesto aprobado y ayuda a prevenir sobrecostos.</p><p><strong>Nuestros servicios incluyen:</strong></p><ol><li><strong>Planificación y Presupuestación de Costos:</strong> Al inicio de un proyecto, creamos un presupuesto detallado basado en estimaciones para mano de obra, materiales, equipos, gastos generales y fondos de contingencia. La planificación de costos implica desarrollar un presupuesto organizado que guiará al equipo del proyecto a través del ciclo de vida del proyecto, ayudando a asignar recursos de manera eficiente.</li><li><strong>Seguimiento de Costos:</strong> Realizamos un seguimiento regular de los costos reales para identificar discrepancias entre los gastos estimados y reales. Esto incluye costos de mano de obra, gastos de materiales y alquiler de equipos.</li><li><strong>Informe de Costos:</strong> Se crean informes regulares para las partes interesadas, proporcionando una imagen clara de la salud financiera del proyecto. Estos informes suelen destacar los costos incurridos hasta la fecha, pronósticos de costos y cualquier variación. Los informes ayudan en la toma de decisiones y dan advertencias tempranas de posibles sobrecostos.</li><li><strong>Gestión de Órdenes de Cambio:</strong> En la construcción, a menudo surgen cambios en los planos originales, como cambios de diseño, condiciones inesperadas del sitio o alteraciones en el alcance. Las órdenes de cambio pueden resultar en costos adicionales, por lo que es importante gestionar estos ajustes cuidadosamente. Los servicios de control de costos aseguran que los cambios se documenten y se contabilicen en el presupuesto del proyecto.</li><li><strong>Proyección y Gestión de Flujo de Caja:</strong> El control de costos de construcción incluye proyectar los costos futuros del proyecto basándose en las tendencias de gasto actuales y ajustar las proyecciones a medida que el proyecto avanza. La gestión de flujo de caja asegura que haya suficiente capital disponible para cubrir los gastos continuos y futuros.</li><li><strong>Gestión de Riesgos:</strong> Los proyectos de construcción son propensos a riesgos como fluctuaciones de precios, condiciones imprevistas del sitio o retrasos. Un proceso robusto de control de costos anticipa estos riesgos e incluye un plan de gestión de riesgos con contingencias integradas en el presupuesto para minimizar el impacto de circunstancias imprevistas.</li><li><strong>Gestión de Costos Laborales:</strong> La mano de obra puede ser uno de los costos más significativos en un proyecto de construcción. Los servicios de control de costos monitorean la productividad de la fuerza laboral y aseguran que los costos laborales se gestionen eficientemente mediante una programación adecuada, proyección de mano de obra y el uso de herramientas de gestión de la fuerza laboral.</li><li><strong>Gestión del Valor Ganado (EVM):</strong> EVM es una técnica de gestión de proyectos que ayuda a rastrear el rendimiento del proyecto comparando el progreso planificado con el progreso real y evaluando la eficiencia de costos. Proporciona indicadores como la variación de costos y la variación de cronograma, que ayudan en la identificación temprana de problemas de control de costos.</li><li><strong>Análisis de Costos y Revisión de Rendimiento:</strong> Las revisiones regulares de rendimiento y el análisis de costos ayudan a evaluar si el proyecto está cumpliendo con los objetivos financieros. Identificar tendencias de costos temprano permite al equipo del proyecto tomar acciones correctivas de manera oportuna.</li></ol>",
+      "QUANTITY_SURVEYING_TITLE": "Topografía de Cantidades",
+      "QUANTITY_SURVEYING_DESCRIPTION": "La topografía de cantidades (QS) es un campo especializado dentro de la construcción y la gestión de proyectos.",
+      "QUANTITY_SURVEYING_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Topografía de Cantidades</h1><p>La topografía de cantidades (QS) es un campo especializado dentro de la construcción y la gestión de proyectos que se centra en gestionar y controlar los costos relacionados con los proyectos de construcción. Los topógrafos de cantidades (QS) son responsables de asegurar que los costos de un proyecto se estimen, monitoreen y controlen desde la fase inicial de diseño hasta la finalización. Juegan un papel clave para asegurar que el proyecto se mantenga dentro del presupuesto, se complete a tiempo y cumpla con todos los estándares de calidad requeridos.</p><p><strong>Nuestros servicios incluyen:</strong></p><ol><li><strong>Preparación de la Lista de Cantidades (BOQ):</strong> La Lista de Cantidades (BOQ) es un documento detallado que enumera todos los materiales, mano de obra y servicios requeridos para un proyecto de construcción, con cantidades y costos unitarios. Sirve como base para invitar a licitaciones y para crear presupuestos de proyectos precisos.</li><li><strong>Pagos de Progreso y Valoraciones:</strong> El topógrafo de cantidades evalúa el progreso del trabajo y certifica los pagos a los contratistas basándose en el porcentaje de trabajo completado. Verifican si las reclamaciones de pago del contratista están en línea con el trabajo realmente realizado. Esto implica preparar certificados de pago intermedios y asegurar el cumplimiento de los términos del contrato.</li><li><strong>Preparación de la Cuenta Final:</strong> Al final del proyecto, el topógrafo de cantidades prepara la cuenta final, que incluye una reconciliación detallada de los costos reales del proyecto frente al presupuesto original. Esta cuenta asegura que todos los asuntos financieros se cierren.</li><li><strong>Auditorías de Costos:</strong> Los topógrafos de cantidades realizan auditorías de costos después de la finalización del proyecto para evaluar la precisión de las estimaciones de costos y evaluar qué tan bien se adhirió el proyecto al presupuesto. Esto ayuda a identificar áreas de mejora para futuros proyectos.</li><li><strong>Asesoramiento Financiero Post-Proyecto:</strong> Tras la finalización, el QS proporciona asesoramiento financiero al cliente respecto a garantías, seguros y cualquier obligación contractual restante. También asisten en la resolución de disputas relacionadas con costos o pagos.</li></ol>",
+      "PLANNING_SCHEDULING_TITLE": "Planificación y Programación",
+      "PLANNING_SCHEDULING_DESCRIPTION": "La planificación y programación de la construcción son componentes cruciales de una gestión de proyectos efectiva en la industria de la construcción.",
+      "PLANNING_SCHEDULING_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Planificación y Programación</h1><p>La planificación y programación de la construcción son componentes cruciales de una gestión de proyectos efectiva en la industria de la construcción. Estos procesos implican el desarrollo de planes y cronogramas detallados para asegurar que los proyectos se completen a tiempo, dentro del presupuesto y de acuerdo con los estándares de calidad especificados.</p><p><strong>Nuestros servicios incluyen:</strong></p><ol><li><strong>Desarrollo y Optimización de la Programación de Proyectos:</strong><ul><li><strong>Creación del Cronograma Inicial:</strong> Desarrollo de un cronograma de proyecto detallado basado en el alcance, los entregables y el cronograma del proyecto. Esto incluye determinar las secuencias de tareas, duraciones y asignaciones de recursos.</li><li><strong>Optimización del Cronograma:</strong> Identificación de oportunidades para mejorar la eficiencia del cronograma ajustando la secuencia de tareas, optimizando la asignación de recursos y eliminando ineficiencias.</li></ul></li><li><strong>Análisis del Método del Camino Crítico (CPM):</strong> Proporcionamos análisis CPM para identificar la secuencia más larga de tareas dependientes (camino crítico). El camino crítico es el elemento más importante del cronograma porque cualquier retraso en este camino retrasará todo el proyecto. Seguimos y actualizamos continuamente el camino crítico para asegurar que se cumplan los hitos del proyecto.</li><li><strong>Asignación y Gestión de Recursos:</strong><ul><li><strong>Programación de Recursos:</strong> Planificación de cómo se asignan los recursos (mano de obra, materiales, equipos) a través de diferentes tareas. Una programación adecuada ayuda a evitar el uso excesivo o insuficiente de recursos.</li><li><strong>Nivelación de Recursos:</strong> Un proceso de ajuste de las fechas de inicio y finalización de las tareas para resolver conflictos o escasez de recursos. Esto asegura que los recursos se utilicen eficientemente sin causar retrasos.</li></ul></li><li><strong>Monitoreo y Reporte de Progreso:</strong> Actualización regular del cronograma para reflejar el progreso real del proyecto, comparando el cronograma planificado con el rendimiento real. Proporcionamos informes de progreso a las partes interesadas, destacando posibles retrasos o problemas que podrían impactar en el cronograma del proyecto. Gestión del Valor Ganado (EVM): Este método mide el progreso del proyecto comparando el valor planificado, el valor ganado y el costo real, ayudando a evaluar el rendimiento y pronosticar la finalización futura del proyecto.</li><li><strong>Gestión de Cambios:</strong> Gestión de cambios en el cronograma del proyecto resultantes de alteraciones de diseño, condiciones imprevistas del sitio o cambios en el alcance. Proporcionamos un proceso estructurado para incorporar cambios en el cronograma existente sin causar interrupciones.</li><li><strong>Planes de Recuperación de Cronogramas:</strong> Cuando un proyecto se retrasa, desarrollamos planes de recuperación de cronogramas para poner el proyecto de nuevo en marcha. Estos planes pueden involucrar ajustar plazos, reasignar recursos, aumentar las horas de trabajo o encontrar formas más eficientes de completar las tareas.</li></ol>"
+    },
+    "SERVICES_DETAILS": {
+      "BACK": "Atrás",
+      "NOT_FOUND": "Servicio no encontrado."
+    },
+    "MISSION": {
+      "TITLE": "Por qué elegir la subcontratación con VBC?",
+      "READ_MORE": "Leer más",
+      "DESCRIPTION": "En VBC, nuestra misión es simple: ofrecer servicios de subcontratación sin problemas que empoderen a su negocio para prosperar en el mercado competitivo actual. Trabajamos como una extensión de su equipo, asegurando que cada tarea se maneje de manera eficiente y efectiva, para que pueda enfocarse en lo que más importa.",
+      "KEY_BENEFITS_TITLE": "Beneficios clave de la subcontratación",
+      "COST_EFFECTIVE_TITLE": "Rentable",
+      "COST_EFFECTIVE_DESCRIPTION": "Ahorre significativamente en impuestos de nómina, beneficios y otros gastos relacionados con los empleados.",
+      "SPECIALIZED_SKILLS_TITLE": "Habilidades especializadas",
+      "SPECIALIZED_SKILLS_DESCRIPTION": "Acceda a un grupo global de expertos con experiencia específica adaptada a sus necesidades.",
+      "SCALABILITY_FLEXIBILITY_TITLE": "Escalabilidad y flexibilidad",
+      "SCALABILITY_FLEXIBILITY_DESCRIPTION": "Ajuste fácilmente los recursos y el tamaño de la fuerza laboral para satisfacer las demandas del proyecto.",
+      "FASTER_TURNAROUND_TITLE": "Entrega más rápida",
+      "FASTER_TURNAROUND_DESCRIPTION": "Acelere la entrega de proyectos con equipos dedicados y procesos optimizados."
+    },
+    "WHY_CHOOSE_US": {
+    "BACK": "Atrás",
+    "TITLE": "Por qué elegirnos?",
+    "TAILORED_SOLUTIONS_TITLE": "Soluciones personalizadas",
+    "TAILORED_SOLUTIONS_DESCRIPTION": "Servicios de subcontratación personalizados alineados con los objetivos y necesidades específicas de su negocio.",
+    "EXPERT_TALENT_TITLE": "Talento experto",
+    "EXPERT_TALENT_DESCRIPTION": "Red global de profesionales calificados que entregan resultados de alta calidad con un profundo conocimiento de la industria.",
+    "COST_EFFICIENCY_TITLE": "Eficiencia de costos",
+    "COST_EFFICIENCY_DESCRIPTION": "Reduzca los costos operativos sin comprometer la calidad o el rendimiento.",
+    "SCALABILITY_TITLE": "Escalabilidad",
+    "SCALABILITY_DESCRIPTION": "Servicios flexibles que se escalan para satisfacer las necesidades comerciales a corto o largo plazo."
+  },
+  "ABOUT": {
+    "TITLE": "Sobre VBC",
+    "DESCRIPTION": "En VBC, ofrecemos soluciones de subcontratación innovadoras y rentables que permiten a las empresas escalar sin problemas. Con una red global de talento experto, entregamos servicios personalizados que impulsan la eficiencia, la flexibilidad y el éxito. Nuestra misión es trabajar como una extensión de su equipo, asegurando que cada proyecto se complete con precisión y excelencia.",
+    "READ_MORE": "Leer más"
+},
+"ABOUT_DETAILS": {
+    "BACK": "Atrás",
+    "TITLE": "Nuestra Historia en VBC",
+    "DESCRIPTION": "Descubre cómo VBC ha crecido hasta convertirse en líder mundial en gestión de construcción, impulsado por la innovación, la integridad y la sostenibilidad.",
+    "WHO_WE_ARE_TITLE": "Quiénes Somos",
+    "WHO_WE_ARE_DESCRIPTION_1": "Somos VBC, especializados en soluciones de subcontratación fiables y rentables que ayudan a las empresas a escalar y optimizar operaciones. Con un enfoque en calidad, eficiencia y flexibilidad, permitimos a las empresas concentrarse en sus fortalezas principales.",
+    "WHO_WE_ARE_DESCRIPTION_2": "Durante 6 años, hemos apoyado a clientes en la entrega de proyectos destacados en más de 12 países, añadiendo valor desde el inicio hasta la finalización.",
+    "WHO_WE_ARE_DESCRIPTION_3": "Desde 2019, nuestra visión ha sido proporcionar soluciones de construcción rentables. Nuestro equipo independiente e imparcial integra experiencia colectiva para ofrecer el mejor asesoramiento, regido por los más altos estándares éticos.",
+    "WHO_WE_ARE_DESCRIPTION_4": "Desde nuestra fundación, nos hemos expandido globalmente, adaptándonos a las demandas del mercado con un equipo multidisciplinario que trabaja en proyectos en África, América, Asia, Europa y Oceanía.",
+    "INDEPENDENT_ADVICE_TITLE": "Asesoramiento Independiente e Imparcial",
+    "INDEPENDENT_ADVICE_DESCRIPTION": "Propiedad total de los empleados, somos independientes de la cadena de suministro. Nuestros servicios abarcan todo el ciclo de vida del proyecto:",
+    "INDEPENDENT_ADVICE_SERVICES": [
+      "Consultoría de gestión de proyectos",
+      "Resolución de disputas",
+      "Gestión en uso",
+      "Servicios de asesoramiento técnico",
+      "Servicios de capacitación"
+    ],
+    "VISION_VALUES_TITLE": "Visión y Valores",
+    "VISION_VALUES_DESCRIPTION": "Nuestra visión principal sigue siendo la misma: operar de manera imparcial, profesional y ética. Hemos evolucionado para enfatizar la sostenibilidad y la diversidad, adaptándonos a un mundo moderno.",
+    "CHALLENGES_TITLE": "Enfrentando los Desafíos de Hoy",
+    "CHALLENGES_DESCRIPTION": "El sector de la construcción es cada vez más especializado, con la sostenibilidad como un enfoque clave. Nuestra experiencia global, conocimiento local y equipos colaborativos aseguran que los clientes alcancen el éxito en un mundo que cambia rápidamente.",
+    "WHAT_WE_DO_TITLE": "Qué Hacemos",
+    "PROJECT_MANAGEMENT_TITLE": "Ciclo de Vida de la Gestión de Proyectos",
+    "PROJECT_MANAGEMENT_DESCRIPTION": "Nuestros servicios cubren todo el ciclo de vida de la gestión de proyectos de construcción, incluyendo: Estimación de Costos y BOQ, Control de Costos, Topografía de Cantidades, Planificación y Programación.",
+    "PROJECTS_SCALE_TITLE": "Proyectos a Cualquier Escala",
+    "PROJECTS_SCALE_DESCRIPTION": "Gestionamos proyectos destacados como escuelas internacionales, hospitales, comercios de lujo, desarrollos residenciales y edificios gubernamentales, entregando alta calidad, a tiempo y dentro del presupuesto.",
+    "CORE_VALUES_TITLE": "Nuestros Valores Fundamentales",
+    "CORE_VALUES": [
+      {
+        "TITLE": "Excelencia y Competencia",
+        "DESCRIPTION": "Superamos los estándares de calidad de los clientes, destacando en control de costos, tiempo y calidad con mejora continua."
+      },
+      {
+        "TITLE": "Ética e Integridad",
+        "DESCRIPTION": "Conducimos los negocios de manera profesional, transparente y con los más altos estándares éticos."
+      },
+      {
+        "TITLE": "Innovación",
+        "DESCRIPTION": "Nuestro enfoque de resolución de problemas nos permite explorar formas innovadoras, adoptando nuevas tecnologías para mejorar los servicios al cliente."
+      },
+      {
+        "TITLE": "Compromiso con las Personas",
+        "DESCRIPTION": "Apoyamos y desarrollamos nuestro talento y contribuimos a las comunidades en las que operamos a través de la responsabilidad social corporativa."
+      }
+    ]
+  },
+  "CONTACT_FORM": {
+    "TITLE": "Ponte en Contacto",
+    "NAME_LABEL": "Nombre",
+    "NAME_PLACEHOLDER": "Tu nombre completo",
+    "PHONE_LABEL": "Teléfono",
+    "PHONE_PLACEHOLDER": "Tu número de teléfono",
+    "MESSAGE_LABEL": "Mensaje",
+    "MESSAGE_PLACEHOLDER": "Tu mensaje",
+    "SUBMIT_BUTTON": "Enviar",
+    "SUBMITTING_BUTTON": "Enviando..."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 VBC Engineering. Todos los derechos reservados."
+  }
+}

@@ -1,0 +1,54 @@
+/* Ensure office card titles are truncated */
+.contact-card h3 {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Allow email and address text to wrap */
+  .contact-card p {
+    white-space: normal;
+    word-wrap: break-word;
+    line-height: 1.5;
+  }
+  
+  /* Ensure cards are responsive */
+  .contact-card {
+    width: 100%;
+    max-width: 350px; /* Prevent cards from becoming too wide */
+    margin: 0 auto; /* Center cards in grid */
+  }
+  
+  /* Responsive font size for smaller screens */
+  @media (max-width: 640px) {
+    .contact-card h3 {
+      font-size: 1.125rem; /* 18px */
+    }
+    .contact-card p {
+      font-size: 0.875rem; /* 14px */
+    }
+  }
+  
+  /* Hover effects for email links */
+  .contact-card a:hover {
+    text-decoration: underline;
+    color: #2563eb; /* Blue-600 */
+  }
+  
+  /* Dark mode adjustments */
+  @media (prefers-color-scheme: dark) {
+    .contact-card {
+      background-color: #1f2937; /* Gray-800 */
+      color: #f3f4f6; /* Gray-100 */
+    }
+    .contact-card h3 {
+      color: #f3f4f6; /* Gray-100 */
+    }
+    .contact-card p {
+      color: #d1d5db; /* Gray-300 */
+    }
+    .contact-card a {
+      color: #60a5fa; /* Blue-400 */
+    }
+  }

@@ -1,0 +1,41 @@
+/* Custom styles for dropdown appearance */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Ensure the dropdown blends with dark mode */
+  select:focus {
+    outline: none;
+  }
+  
+  /* Optional: Add padding for better spacing */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+
+  .home{
+    cursor: pointer;
+  }/* Ensure dropdown is hidden by default */
+
+/* Sidebar animation */
+.w-64 {
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .w-64 {
+    width: 220px;
+  }
+}

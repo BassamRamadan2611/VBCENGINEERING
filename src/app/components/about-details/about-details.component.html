@@ -1,0 +1,114 @@
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- Back to Home Button -->
+  <div class="m-8">
+    <a routerLink="/about"
+       class="inline-flex items-center justify-center bg-indigo-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 text-sm sm:text-base">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+      </svg>
+      {{ 'ABOUT_DETAILS.BACK' | translate }}
+    </a>
+  </div>
+</div>
+
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <div class="text-center mb-16 animate-fade-in">
+      <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
+        {{ 'ABOUT_DETAILS.TITLE' | translate }}
+      </h2>
+      <p class="mt-4 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+        {{ 'ABOUT_DETAILS.DESCRIPTION' | translate }}
+      </p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <!-- Left Column: Company Overview -->
+      <div class="space-y-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-slide-in">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.WHO_WE_ARE_TITLE' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.WHO_WE_ARE_DESCRIPTION_1' | translate }}
+          </p>
+          <p class="text-gray-600 leading-relaxed mt-4">
+            {{ 'ABOUT_DETAILS.WHO_WE_ARE_DESCRIPTION_2' | translate }}
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-slide-in">
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.WHO_WE_ARE_DESCRIPTION_3' | translate }}
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-slide-in">
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.WHO_WE_ARE_DESCRIPTION_4' | translate }}
+          </p>
+        </div>
+      </div>
+
+      <!-- Right Column: Vision and Services -->
+      <div class="space-y-8">
+        <div class="bg-indigo-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-slide-in">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.INDEPENDENT_ADVICE_TITLE' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.INDEPENDENT_ADVICE_DESCRIPTION' | translate }}
+          </p>
+          <ul class="mt-4 space-y-3 text-gray-600">
+            <li *ngFor="let service of 'ABOUT_DETAILS.INDEPENDENT_ADVICE_SERVICES' | translate" class="flex items-center">
+              <svg class="h-5 w-5 text-indigo-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              {{ service }}
+            </li>
+          </ul>
+        </div>
+        <div class="bg-indigo-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-slide-in">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.VISION_VALUES_TITLE' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.VISION_VALUES_DESCRIPTION' | translate }}
+          </p>
+        </div>
+        <div class="bg-indigo-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-slide-in">
+          <h3 class="text-2xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.CHALLENGES_TITLE' | translate }}</h3>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.CHALLENGES_DESCRIPTION' | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- What We Do Section -->
+    <div class="mt-16">
+      <h3 class="text-3xl font-semibold text-gray-900 mb-8 text-center animate-fade-in">{{ 'ABOUT_DETAILS.WHAT_WE_DO_TITLE' | translate }}</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-slide-in">
+          <h4 class="text-xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.PROJECT_MANAGEMENT_TITLE' | translate }}</h4>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.PROJECT_MANAGEMENT_DESCRIPTION' | translate }}
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow-lg transform hover:scale-105 transition-all duration-300 animate-slide-in">
+          <h4 class="text-xl font-semibold text-gray-900 mb-4">{{ 'ABOUT_DETAILS.PROJECTS_SCALE_TITLE' | translate }}</h4>
+          <p class="text-gray-600 leading-relaxed">
+            {{ 'ABOUT_DETAILS.PROJECTS_SCALE_DESCRIPTION' | translate }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Values Section -->
+    <div class="mt-16">
+      <h3 class="text-3xl font-semibold text-gray-900 mb-8 text-center animate-fade-in">{{ 'ABOUT_DETAILS.CORE_VALUES_TITLE' | translate }}</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div *ngFor="let value of 'ABOUT_DETAILS.CORE_VALUES' | translate" class="bg-indigo-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 animate-slide-in">
+          <h4 class="text-xl font-semibold text-gray-900 mb-3">{{ value.TITLE }}</h4>
+          <p class="text-gray-600 leading-relaxed">
+            {{ value.DESCRIPTION }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

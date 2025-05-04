@@ -1,0 +1,179 @@
+<nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-row justify-between mx-auto p-4">
+    <a routerLink="/home" (click)="navigateTo('home')" class="flex items-center space-x-3 rtl:space-x-reverse flex-none">
+      <img src="assets/images/logo.PNG" class="h-8" alt="VBC Engineering Logo" />
+      <span class="self-center text-base sm:text-lg font-semibold dark:text-white min-w-[140px] truncate">{{ 'NAVBAR.COMPANY_NAME' | translate }}</span>
+    </a>
+    <div class="flex items-center space-x-3 rtl:space-x-reverse">
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex md:items-center">
+        <ul class="flex flex-row flex-nowrap space-x-2 font-medium md:bg-white dark:md:bg-gray-900">
+          <li>
+            <a routerLink="/home" routerLinkActive="text-blue-700 dark:text-blue-500" [routerLinkActiveOptions]="{exact: true}" (click)="navigateTo('home')" class="block py-2 px-2 ml-6 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.HOME' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/mission" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('mission')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.MISSION' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/services" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('services')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.SERVICES' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/benefits" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('benefits')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.BENEFITS' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/experience" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('experience')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.EXPERIENCE' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/options" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('options')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.OPTIONS' | translate }}</a>
+          </li>
+          <li>
+            <a routerLink="/contact" routerLinkActive="text-blue-700 dark:text-blue-500" (click)="navigateTo('contact')" class="block py-2 px-2 text-white hover:text-blue-700 dark:hover:text-blue-500 text-sm sm:text-base min-w-fit truncate">{{ 'NAVBAR.CONTACT' | translate }}</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Language Dropdown -->
+      <button type="button" (click)="toggleDropdown()" class="language-toggle inline-flex items-center font-medium justify-center px-3 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white min-w-[120px]">
+        <svg *ngIf="currentLanguage === 'en'" class="w-4 h-4 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+          <path fill="#b22234" d="M0 0h512v512H0z"/>
+          <path d="M0 64h512m0 128H0m0 128h512m0 128H0" stroke="#fff" stroke-width="64"/>
+          <path fill="#3c3b6e" d="M0 0h256v256H0z"/>
+          <g fill="#fff">
+            <g id="d">
+              <g id="c">
+                <g id="e">
+                  <g id="b">
+                    <path id="a" d="M32 12l9.6 29.6-25.2-18.3h31.1L22.3 41.6z"/>
+                    <use xlink:href="#a" y="56"/>
+                    <use xlink:href="#a" y="112"/>
+                    <use xlink:href="#a" y="168"/>
+                  </g>
+                  <use xlink:href="#a" y="224"/>
+                </g>
+                <use xlink:href="#b" x="32" y="28"/>
+              </g>
+              <use xlink:href="#c" x="64"/>
+            </g>
+            <use xlink:href="#d" x="128"/>
+            <use xlink:href="#c" x="256"/>
+            <use xlink:href="#e" x="320"/>
+          </g>
+        </svg>
+        <svg *ngIf="currentLanguage === 'es'" class="w-4 h-4 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+          <path fill="#c60b1e" d="M0 85.3h512v341.3H0z"/>
+          <path fill="#ffc107" d="M0 85.3h512v85.3H0zm0 341.3h512v-85.3H0z"/>
+        </svg>
+        {{ 'NAVBAR.LANGUAGE' | translate }}
+      </button>
+      <div class="language-dropdown z-50 absolute top-full right-16 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700" [ngClass]="{'hidden': !isDropdownOpen}">
+        <ul class="py-2 font-medium" role="none">
+          <li>
+            <a (click)="switchLanguage('en')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+                  <path fill="#b22234" d="M0 0h512v512H0z"/>
+                  <path d="M0 64h512m0 128H0m0 128h512m0 128H0" stroke="#fff" stroke-width="64"/>
+                  <path fill="#3c3b6e" d="M0 0h256v256H0z"/>
+                  <g fill="#fff">
+                    <g id="d2">
+                      <g id="c2">
+                        <g id="e2">
+                          <g id="b2">
+                            <path id="a2" d="M32 12l9.6 29.6-25.2-18.3h31.1L22.3 41.6z"/>
+                            <use xlink:href="#a2" y="56"/>
+                            <use xlink:href="#a2" y="112"/>
+                            <use xlink:href="#a2" y="168"/>
+                          </g>
+                          <use xlink:href="#a2" y="224"/>
+                        </g>
+                        <use xlink:href="#b2" x="32" y="28"/>
+                      </g>
+                      <use xlink:href="#c2" x="64"/>
+                    </g>
+                    <use xlink:href="#d2" x="128"/>
+                    <use xlink:href="#c2" x="256"/>
+                    <use xlink:href="#e2" x="320"/>
+                  </g>
+                </svg>
+                English (US)
+              </div>
+            </a>
+          </li>
+          <li>
+            <a (click)="switchLanguage('es')" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+                  <path fill="#c60b1e" d="M0 85.3h512v341.3H0z"/>
+                  <path fill="#ffc107" d="M0 85.3h512v85.3H0zm0 341.3h512v-85.3H0z"/>
+                </svg>
+                Español
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- Mobile Toggle Button -->
+      <button (click)="toggleSidebar()" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+        <span class="sr-only">Toggle menu</span>
+        <svg *ngIf="!isSidebarOpen" class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+        <svg *ngIf="isSidebarOpen" class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Sidebar -->
+  <div class="fixed top-0 left-0 h-full w-64 bg-gray-900 text-white z-50 transform transition-transform duration-300 shadow-xl rounded-r-lg md:hidden" [ngClass]="{'-translate-x-full': !isSidebarOpen, 'translate-x-0': isSidebarOpen}">
+    <div class="p-4 flex justify-between items-center">
+      <h1 class="text-lg sm:text-xl font-semibold min-w-[140px] truncate">{{ 'NAVBAR.COMPANY_NAME' | translate }}</h1>
+      <button (click)="toggleSidebar()" class="p-2 text-gray-400 hover:text-white focus:outline-none">
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <nav class="mt-4">
+      <ul class="flex flex-col font-medium">
+        <li>
+          <a routerLink="/home" routerLinkActive="bg-blue-700 text-white" [routerLinkActiveOptions]="{exact: true}" (click)="navigateTo('home'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.HOME' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/mission" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('mission'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.MISSION' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/services" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('services'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.SERVICES' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/benefits" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('benefits'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.BENEFITS' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/experience" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('experience'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.EXPERIENCE' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/options" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('options'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.OPTIONS' | translate }}
+          </a>
+        </li>
+        <li>
+          <a routerLink="/contact" routerLinkActive="bg-blue-700 text-white" (click)="navigateTo('contact'); toggleSidebar()" class="block py-3 px-4 text-white hover:bg-gray-700 transition-colors text-wrap">
+            {{ 'NAVBAR.CONTACT' | translate }}
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Mobile Overlay -->
+  <div *ngIf="isSidebarOpen" class="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" (click)="toggleSidebar()"></div>
+</nav>

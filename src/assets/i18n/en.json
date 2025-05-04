@@ -1,0 +1,191 @@
+{
+    "NAVBAR": {
+      "HOME": "Home",
+      "MISSION": " Mission",
+      "SERVICES": "Services",
+      "BENEFITS": " Benefits",
+      "EXPERIENCE": "Experience & Software",
+      "OPTIONS": "Cooperation Options",
+      "CONTACT": "Contact",
+      "LANGUAGE": "English",
+      "COMPANY_NAME": "VBC Engineering"
+
+    },
+    "CONTACT": {
+      "TITLE": "Contact Us",
+      "UK_OFFICE": "UK Office",
+      "USA_OFFICE": "USA Office",
+      "EU_OFFICE": "EU Office",
+      "AUSTRALIA_OFFICE": "Australia Office",
+      "UAE_MENA_OFFICE": "UAE & MENA Office",
+      "EGYPT_AFRICA_OFFICE": "Egypt & Africa Office",
+      "EMAIL": "Email",
+      "ADDRESS": "Address",
+      "UK_ADDRESS": "71-75 Shelton Street, Covent Garden, London, WC2H 9JQ"
+    },
+    "OPTIONS": {
+      "TITLE": "Cooperation Options",
+      "DESCRIPTION": "Choose the pricing model that best suits your project needs, from flexible hourly rates to dedicated teams.",
+      "HOURLY_TITLE": "Hourly Rate Pricing",
+      "HOURLY_DESCRIPTION": "Ideal for ongoing work or tasks with uncertain scope.",
+      "FIXED_TITLE": "Fixed-Price/Project-Based",
+      "FIXED_DESCRIPTION": "Best for well-defined projects with clear objectives and timelines.",
+      "RETAINER_TITLE": "Retainer-Based Pricing",
+      "RETAINER_DESCRIPTION": "Perfect for continuous, long-term support or services.",
+      "DEDICATED_TITLE": "Dedicated Team",
+      "DEDICATED_DESCRIPTION": "Dedicated professionals for long-term, ongoing projects."
+    },
+    "EXPERIENCE": {
+      "BACK": "Back",
+      "TITLE": "Our Experience",
+      "DESCRIPTION_PART1": "Over 100 Projects Worldwide",
+      "DESCRIPTION_PART2": "We have worked on projects across the USA, UK, Canada, South Africa, KSA, and Egypt, including:",
+      "HIGHWAY_PROJECTS": "Highway Projects",
+      "BUILDINGS": "Residential, Commercial, and High-rise Buildings",
+      "WATER_PLANTS": "Water Treatment Plants",
+      "INFRASTRUCTURE": "Infrastructure Projects",
+      "COST_ESTIMATION": "Cost Estimation, Quantity Takeoff, and Cost Control",
+      "SOFTWARE_TITLE": "Our Software Expertise",
+      "SOFTWARE_DESCRIPTION": "We leverage industry-leading software to deliver precise and efficient solutions for cost estimation, quantity surveying, cost control, and project planning.",
+      "COST_ESTIMATION_BOQ": "Cost Estimation & BOQ",
+      "COST_CONTROL": "Cost Control",
+      "QUANTITY_SURVEYING": "Quantity Surveying",
+      "PLANNING_SCHEDULING": "Planning & Scheduling"
+    },
+    "BENEFITS": {
+      "BACK": "Back",
+      "TITLE": "Outsourcing Benefits",
+      "COST_SAVINGS_TITLE": "Cost Savings",
+      "COST_SAVINGS_DESCRIPTION": "Reduces labor, operational costs, and eliminates the need for in-house hiring or training.",
+      "CORE_BUSINESS_TITLE": "Focus on Core Business",
+      "CORE_BUSINESS_DESCRIPTION": "Frees up resources to concentrate on key functions by delegating non-core tasks.",
+      "EXPERTISE_TITLE": "Access to Expertise",
+      "EXPERTISE_DESCRIPTION": "Gain access to skilled professionals without long-term commitments.",
+      "EFFICIENCY_TITLE": "Increased Efficiency",
+      "EFFICIENCY_DESCRIPTION": "Reduces workload on internal teams, boosting overall productivity.",
+      "SCALABILITY_TITLE": "Scalability & Flexibility",
+      "SCALABILITY_DESCRIPTION": "Scale operations up or down without hiring new staff.",
+      "RISK_MANAGEMENT_TITLE": "Risk Management",
+      "RISK_MANAGEMENT_DESCRIPTION": "Shared responsibility and managed compliance reduce business risks.",
+      "TAX_TITLE": "Tax Advantages of Outsourcing",
+      "TAX_DEDUCTIBILITY_TITLE": "Tax Deductibility",
+      "TAX_DEDUCTIBILITY_DESCRIPTION": "Payments to independent contractors are deductible as business expenses, avoiding additional payroll taxes and benefits costs.",
+      "NO_UNEMPLOYMENT_TITLE": "No Unemployment or Workers' Compensation",
+      "NO_UNEMPLOYMENT_DESCRIPTION": "No contributions to unemployment insurance or workers' compensation, reducing costs significantly."
+    },
+    "SERVICES": {
+      "TITLE": "Our Consulting and Outsourcing Services",
+      "READ_MORE": "Read more",
+      "READ_MORE_ARIA": "Read more about {title}",
+      "LEARN_MORE": "Learn more about {title}",
+      "COST_ESTIMATION_TITLE": "Cost Estimation & BOQ",
+      "COST_ESTIMATION_DESCRIPTION": "On Cost estimating, we are calculating the overall required costs for a new building project, including direct and indirect costs.",
+      "COST_ESTIMATION_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Cost Estimation & BOQ</h1><p>On Cost estimating, we are calculating the overall required costs for a new building project, including direct and indirect costs.</p><p><strong>Our services include:</strong></p><ol><li><strong>Quantity Takeoff Estimation:</strong> In theory, a quantity takeoff in construction estimates contract quantities from drawings and construction plans and recording them in the Bill of Quantities. Standard documents used in construction takeoffs are architectural, structural, electrical, and site water reticulations.</li><li><strong>Cost Estimation:</strong> A detailed breakdown of labor, material, and overhead costs involved in a construction project. This can include direct and indirect costs, such as subcontractor fees, permits, and insurance.</li><li><strong>Project Management Estimation:</strong> We offer full project management and estimation services, providing a comprehensive understanding of cost, schedule, and resource allocation throughout the project’s lifecycle.</li><li><strong>Value Engineering Estimation:</strong> This type of estimation focuses on reducing costs by analyzing and improving the project design, construction methods, and materials without affecting the quality or performance of the project.</li></ol>",
+      "COST_CONTROL_TITLE": "Cost Control",
+      "COST_CONTROL_DESCRIPTION": "On Construction cost control we are focusing on managing and minimizing the costs of a construction project.",
+      "COST_CONTROL_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Cost Control</h1><p>On Construction cost control we are focusing on managing and minimizing the costs of a construction project while ensuring it remains on track in terms of scope, quality, and schedule. These services help to track, monitor, and control expenses throughout the project lifecycle, from the initial budgeting phase to project completion. Effective cost control ensures that the project is delivered within the approved budget and helps prevent cost overruns.</p><p><strong>Our services include:</strong></p><ol><li><strong>Cost Planning and Budgeting:</strong> At the start of a project, we create a detailed budget based on estimates for labor, materials, equipment, overhead, and contingency funds. Cost planning involves developing an organized budget that will guide the project team through the project’s lifecycle, helping to allocate resources efficiently.</li><li><strong>Cost Tracking:</strong> We make regular tracking of actual costs essential to identify discrepancies between estimated and actual expenses. This includes labor costs, material expenses, and equipment rentals.</li><li><strong>Cost Reporting:</strong> Regular reports are created for stakeholders, providing a clear picture of the financial health of the project. These reports typically highlight costs incurred to date, cost forecasts, and any variances. Reports help with decision-making and give early warnings of potential cost overruns.</li><li><strong>Change Order Management:</strong> In construction, changes to the original plans often arise, such as design changes, unexpected site conditions, or alterations in scope. Change orders may result in additional costs, so it’s important to carefully manage these adjustments. Cost control services ensure that changes are documented and accounted for in the project budget.</li><li><strong>Forecasting and Cash Flow Management:</strong> Construction cost control includes forecasting the future costs of the project based on current spending trends and adjusting projections as the project progresses. Cash flow management ensures that there’s enough capital available to cover ongoing expenses and future costs.</li><li><strong>Risk Management:</strong> Construction projects are prone to risks such as price fluctuations, unforeseen site conditions, or delays. A robust cost control process anticipates these risks and includes a risk management plan with contingencies built into the budget to minimize the impact of unforeseen circumstances.</li><li><strong>Labor Cost Management:</strong> Labor can be one of the most significant costs on a construction project. Cost control services monitor the workforce's productivity and ensure that labor costs are efficiently managed through proper scheduling, labor forecasting, and the use of workforce management tools.</li><li><strong>Earned Value Management (EVM):</strong> EVM is a project management technique that helps track project performance by comparing the planned progress to the actual progress and evaluating cost efficiency. It provides indicators like cost variance and schedule variance, which help in the early identification of cost control issues.</li><li><strong>Cost Analysis and Performance Review:</strong> Regular performance reviews and cost analysis help evaluate whether the project is meeting financial goals. Identifying cost trends early enables the project team to take corrective actions promptly.</li></ol>",
+      "QUANTITY_SURVEYING_TITLE": "Quantity Surveying",
+      "QUANTITY_SURVEYING_DESCRIPTION": "Quantity surveying (QS) is a specialized field within construction and project management that focuses on managing and controlling costs related to construction projects.",
+      "QUANTITY_SURVEYING_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Quantity Surveying</h1><p>Quantity surveying (QS) is a specialized field within construction and project management that focuses on managing and controlling costs related to construction projects. Quantity surveyors (QS) are responsible for ensuring that a project’s costs are estimated, monitored, and controlled from the initial design phase through to completion. They play a key role in ensuring that the project stays within budget, is completed on time, and meets all required standards of quality.</p><p><strong>Our services include:</strong></p><ol><li><strong>Bill of Quantities (BOQ) Preparation:</strong> The Bill of Quantities (BOQ) is a detailed document listing all materials, labor, and services required for a construction project, with quantities and unit costs. It serves as the basis for inviting tenders and for creating accurate project budgets.</li><li><strong>Progress Payments and Valuations:</strong> The quantity surveyor assesses the progress of the work and certifies payments to contractors based on the percentage of work completed. They verify whether the contractor’s claims for payment are in line with the actual work done. This involves preparing interim payment certificates and ensuring compliance with contract terms.</li><li><strong>Final Account Preparation:</strong> At the end of the project, the quantity surveyor prepares the final account, which includes a detailed reconciliation of actual project costs versus the original budget. This account ensures that all financial matters are closed out.</li><li><strong>Cost Audits:</strong> Quantity surveyors conduct cost audits after the project’s completion to assess the accuracy of cost estimates and to evaluate how well the project adhered to the budget. This helps to identify areas for improvement in future projects.</li><li><strong>Post-Project Financial Advice:</strong> Following completion, the QS provides financial advice to the client regarding warranties, insurance, and any remaining contractual obligations. They also assist in settling any disputes related to costs or payments.</li></ol>",
+      "PLANNING_SCHEDULING_TITLE": "Planning & Scheduling",
+      "PLANNING_SCHEDULING_DESCRIPTION": "Construction planning and scheduling are crucial components of effective project management in the construction industry.",
+      "PLANNING_SCHEDULING_DETAILS": "<h1 class='font-bold mb-4 text-2xl'>Planning & Scheduling</h1><p>Construction planning and scheduling are crucial components of effective project management in the construction industry. These processes involve the development of detailed plans and timelines to ensure that projects are completed on time, within budget, and according to specified quality standards.</p><p><strong>Our services include:</strong></p><ol><li><strong>Project Scheduling Development and Optimization:</strong><ul><li><strong>Initial Schedule Creation:</strong> Developing a detailed project schedule based on the project's scope, deliverables, and timeline. This includes determining task sequences, durations, and resource allocations.</li><li><strong>Schedule Optimization:</strong> Identifying opportunities to improve schedule efficiency by adjusting task sequencing, optimizing resource allocation, and removing inefficiencies.</li></ul></li><li><strong>Critical Path Method (CPM) Analysis:</strong> Providing CPM analysis to identify the longest sequence of dependent tasks (critical path). The critical path is the most important element of the schedule because any delay along this path will delay the entire project. Continuously track and update the critical path to ensure that project milestones are met.</li><li><strong>Resource Allocation and Management:</strong><ul><li><strong>Resource Scheduling:</strong> Planning how resources (labor, materials, equipment) are allocated across different tasks. Proper scheduling helps avoid overuse or underuse of resources.</li><li><strong>Resource Levelling:</strong> A process of adjusting the start and finish dates of tasks to resolve resource conflicts or shortages. This ensures resources are utilized efficiently without causing delays.</li></ul></li><li><strong>Progress Monitoring and Reporting:</strong> Regularly updating the schedule to reflect actual project progress, comparing the planned schedule to actual performance. Providing progress reports to stakeholders, highlighting potential delays or issues that could impact on the project’s timeline. Earned Value Management (EVM): This method measures the project's progress by comparing the planned value, earned value, and actual cost, helping to assess performance and forecast future project completion.</li><li><strong>Change Management:</strong> Managing changes to the project schedule resulting from design alterations, unforeseen site conditions, or scope changes. Providing a structured process for incorporating changes into the existing schedule without causing disruptions.</li><li><strong>Schedule Recovery Plans:</strong> When a project falls behind schedule, we develop schedule recovery plans to get the project back on track. These plans may involve adjusting deadlines, reallocating resources, increasing work hours, or finding more efficient ways to complete tasks.</li></ol>"
+    },
+    "SERVICES_DETAILS": {
+      "BACK": "Back",
+      "NOT_FOUND": "Service not found."
+    },
+    "MISSION": {
+      "TITLE": "Why Choose Outsourcing with VBC?",
+      "READ_MORE": "Read More",
+      "DESCRIPTION": "At VBC, our mission is simple: to deliver seamless outsourcing services that empower your business to thrive in today’s competitive market. We work as an extension of your team, ensuring that every task is handled efficiently and effectively, so you can focus on what matters most.",
+      "KEY_BENEFITS_TITLE": "Key Benefits of Outsourcing",
+      "COST_EFFECTIVE_TITLE": "Cost-Effective",
+      "COST_EFFECTIVE_DESCRIPTION": "Save significantly on payroll taxes, benefits, and other employee-related expenses.",
+      "SPECIALIZED_SKILLS_TITLE": "Specialized Skills",
+      "SPECIALIZED_SKILLS_DESCRIPTION": "Tap into a global pool of experts with niche expertise tailored to your needs.",
+      "SCALABILITY_FLEXIBILITY_TITLE": "Scalability & Flexibility",
+      "SCALABILITY_FLEXIBILITY_DESCRIPTION": "Easily adjust resources and workforce size to meet project demands.",
+      "FASTER_TURNAROUND_TITLE": "Faster Turnaround",
+      "FASTER_TURNAROUND_DESCRIPTION": "Accelerate project delivery with dedicated teams and streamlined processes."
+    },
+    "WHY_CHOOSE_US": {
+    "BACK": "Back",
+    "TITLE": "Why Choose Us?",
+    "TAILORED_SOLUTIONS_TITLE": "Tailored Solutions",
+    "TAILORED_SOLUTIONS_DESCRIPTION": "Customized outsourcing services aligned with your specific business goals and needs.",
+    "EXPERT_TALENT_TITLE": "Expert Talent",
+    "EXPERT_TALENT_DESCRIPTION": "Global network of skilled professionals delivering top-quality results with deep industry knowledge.",
+    "COST_EFFICIENCY_TITLE": "Cost Efficiency",
+    "COST_EFFICIENCY_DESCRIPTION": "Reduce operational costs without compromising on quality or performance.",
+    "SCALABILITY_TITLE": "Scalability",
+    "SCALABILITY_DESCRIPTION": "Flexible services that scale to meet your short-term or long-term business needs."
+  },
+  "ABOUT": {
+    "TITLE": "About VBC",
+    "DESCRIPTION": "At VBC, we provide innovative and cost-effective outsourcing solutions that empower businesses to scale seamlessly. With a global network of expert talent, we deliver tailored services that drive efficiency, flexibility, and success. Our mission is to work as an extension of your team, ensuring every project is completed with precision and excellence.",
+    "READ_MORE": "Read More"
+  },
+  "ABOUT_DETAILS": {
+    "BACK": "Back",
+    "TITLE": "Our Story at VBC",
+    "DESCRIPTION": "Discover how VBC has grown into a global leader in construction management, driven by innovation, integrity, and sustainability.",
+    "WHO_WE_ARE_TITLE": "Who We Are",
+    "WHO_WE_ARE_DESCRIPTION_1": "We are VBC, specializing in reliable and cost-effective outsourcing solutions that help businesses scale and streamline operations. With a focus on quality, efficiency, and flexibility, we enable companies to concentrate on their core strengths.",
+    "WHO_WE_ARE_DESCRIPTION_2": "For 6 years, we’ve supported clients in delivering outstanding projects across 12+ countries, adding value from inception to completion.",
+    "WHO_WE_ARE_DESCRIPTION_3": "Since 2019, our vision has been to provide cost-effective construction solutions. Our independent, impartial team integrates collective expertise to deliver the best advice, bound by the highest ethical standards.",
+    "WHO_WE_ARE_DESCRIPTION_4": "From our foundation, we’ve expanded globally, adapting to market demands with a multi-disciplinary team working on projects in Africa, America, Asia, Europe, and Oceania.",
+    "INDEPENDENT_ADVICE_TITLE": "Independent, Impartial Advice",
+    "INDEPENDENT_ADVICE_DESCRIPTION": "Wholly employee-owned, we’re independent of the supply chain. Our services span the project lifecycle:",
+    "INDEPENDENT_ADVICE_SERVICES": [
+      "Project management consultancy",
+      "Dispute resolution",
+      "In-use management",
+      "Technical advisory services",
+      "Training services"
+    ],
+    "VISION_VALUES_TITLE": "Vision and Values",
+    "VISION_VALUES_DESCRIPTION": "Our core vision remains unchanged: operating impartially, professionally, and ethically. We’ve evolved to emphasize sustainability and diversity, adapting to a modern world.",
+    "CHALLENGES_TITLE": "Meeting Today’s Challenges",
+    "CHALLENGES_DESCRIPTION": "The construction sector is increasingly specialized, with sustainability as a key focus. Our global expertise, local knowledge, and collaborative teams ensure clients achieve success in a fast-changing world.",
+    "WHAT_WE_DO_TITLE": "What We Do",
+    "PROJECT_MANAGEMENT_TITLE": "Project Management Lifecycle",
+    "PROJECT_MANAGEMENT_DESCRIPTION": "Our services cover the entire construction project management lifecycle, including: Cost Estimation & BOQ, Cost Control, Quantity Surveying, Planning & Scheduling.",
+    "PROJECTS_SCALE_TITLE": "Projects at Every Scale",
+    "PROJECTS_SCALE_DESCRIPTION": "We manage high-profile projects like international schools, hospitals, luxury retail, residential developments, and government buildings, delivering high quality, on time, and on budget.",
+    "CORE_VALUES_TITLE": "Our Core Values",
+    "CORE_VALUES": [
+      {
+        "TITLE": "Excellence & Competency",
+        "DESCRIPTION": "We surpass client quality standards, excelling in cost, time, and quality control with continuous improvement."
+      },
+      {
+        "TITLE": "Ethics & Integrity",
+        "DESCRIPTION": "We conduct business professionally, transparently, and with the highest ethical standards."
+      },
+      {
+        "TITLE": "Innovation",
+        "DESCRIPTION": "Our problem-solving approach enables us to explore innovative ways, embracing new technologies to improve client services."
+      },
+      {
+        "TITLE": "Commitment to People",
+        "DESCRIPTION": "We support and develop our talent and contribute to the communities we operate in through corporate social responsibility."
+      }
+    ]
+  }
+  ,
+  "CONTACT_FORM": {
+    "TITLE": "Get in Touch",
+    "NAME_LABEL": "Name",
+    "NAME_PLACEHOLDER": "Your full name",
+    "PHONE_LABEL": "Phone",
+    "PHONE_PLACEHOLDER": "Your phone number",
+    "MESSAGE_LABEL": "Message",
+    "MESSAGE_PLACEHOLDER": "Your message",
+    "SUBMIT_BUTTON": "Send",
+    "SUBMITTING_BUTTON": "Sending..."
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2025 VBC Engineering. All rights reserved."
+  }
+  }

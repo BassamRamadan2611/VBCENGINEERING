@@ -1,0 +1,23 @@
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+  <!-- Back to Services Button -->
+  <div class="m-8">
+    <a routerLink="/services" 
+       class="inline-flex items-center justify-center bg-indigo-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-indigo-700 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 text-sm sm:text-base">
+      <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path>
+      </svg>
+      {{ 'SERVICES_DETAILS.BACK' | translate }}
+    </a>
+  </div>
+</div>
+
+<section class="py-16 px-4 sm:px-8 lg:px-12 min-h-screen bg-white text-black">
+  <div class="max-w-4xl mx-auto">
+    <div *ngIf="service; else notFound" class="p-10 border border-gray-200 rounded-lg">
+      <div [innerHTML]="service.details | translate | safeHtmlPipe" class="prose prose-lg text-black"></div>
+    </div>
+    <ng-template #notFound>
+      <p class="text-black text-center text-lg">{{ 'SERVICES_DETAILS.NOT_FOUND' | translate }}</p>
+    </ng-template>
+  </div>
+</section>
